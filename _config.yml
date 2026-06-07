@@ -1,0 +1,99 @@
+title: Miqra
+short_name: Miqra
+app_category: Reference
+description: A reverent Tanakh reader with an on-device, non-generative concordance — it surfaces connections, never interprets. Public-domain Hebrew text with Spanish, side by side. Privacy-first, for iPhone, iPad, Mac, and Apple Watch.
+url: https://miqra.khassinx.com
+lang: en
+
+# Layer 2 brand tokens (Miqra specific) extending Layer 3 primitives
+app_tokens_css: /assets/css/miqra-tokens.css
+
+# Favicons (derived from Icon Composer .icon bundle — the Sefer Torah / Torah scroll)
+# SVG primary for modern browsers, PNG fallbacks for legacy + iOS home screen
+favicon_svg: /assets/favicons/favicon.svg
+favicon_32: /assets/favicons/favicon-32.png
+favicon_16: /assets/favicons/favicon-16.png
+apple_touch_icon: /assets/favicons/apple-touch-icon.png
+
+# Social / Open Graph + Twitter
+og_site_name: Miqra
+og_image: /assets/og/og-image.png
+og_image_es: /assets/og/og-image-es.png
+og_image_alt: "Miqra — the Tanakh, as it is read."
+og_image_alt_es: "Miqra — el Tanaj, como se lee."
+og_image_width: 1200
+og_image_height: 630
+twitter_card: summary_large_image
+
+# JSON-LD (SoftwareApplication, publisher KhassinX). `name` is the brand wordmark;
+# `legal_name` is the registered legal entity (used in footer/JSON-LD/legal pages).
+org:
+  name: KhassinX
+  legal_name: KHASSINX LLC
+
+# Navigation — keyed per locale. base.html selects via page.lang con fallback a 'en'.
+nav:
+  en:
+    - title: Legal
+      url: /legal/
+    - title: Press
+      url: /press/
+  es:
+    - title: Legal
+      url: /es/legal/
+    - title: Prensa
+      url: /es/press/
+
+footer_nav:
+  en:
+    - title: Privacy
+      url: /legal/privacy/
+    - title: Terms
+      url: /legal/terms/
+    - title: Security
+      url: /security/
+    - title: Press
+      url: /press/
+    - title: Contact
+      url: mailto:hello@khassinx.com
+  es:
+    - title: Privacidad
+      url: /es/legal/privacy/
+    - title: Términos
+      url: /es/legal/terms/
+    - title: Seguridad
+      url: /es/security/
+    - title: Prensa
+      url: /es/press/
+    - title: Contacto
+      url: mailto:hello@khassinx.com
+
+# UI strings (skip-link y "Part of ecosystem") consumed by base.html
+ui_strings:
+  en:
+    skip_to_main: "Skip to main content"
+    part_of_ecosystem_prefix: "Part of the"
+    part_of_ecosystem_label: "KhassinX ecosystem"
+    ecosystem_url: "https://khassinx.com"
+  es:
+    skip_to_main: "Saltar al contenido principal"
+    part_of_ecosystem_prefix: "Parte del"
+    part_of_ecosystem_label: "ecosistema KhassinX"
+    ecosystem_url: "https://khassinx.com/es/"
+
+# Jekyll config
+markdown: kramdown
+plugins:
+  - jekyll-redirect-from
+  - jekyll-sitemap
+
+exclude:
+  - README.md
+  - CONTRIBUTING.md
+  - .gitignore
+  - LICENSE
+
+# Jekyll por default ignora dotfiles/dotdirs. .well-known DEBE servirse
+# (RFC 9116 security.txt requiere path exacto /.well-known/security.txt).
+include:
+  - .well-known

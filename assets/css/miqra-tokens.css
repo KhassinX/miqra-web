@@ -1,0 +1,195 @@
+/*
+ * miqra-tokens.css — Layer 2 Miqra brand tokens — Apple-canon + tekhelet (royal blue) + gold
+ *
+ * Per-app brand for miqra.khassinx.com. Distinct from Layer 1 KhassinX umbrella
+ * (neutral Apple blue) and from sibling Scripture Suite apps (Lampas, Nibras).
+ *
+ * Source: ~/KhassinX/_template/web/WEB_PROPERTY_SPEC.md §4 (layered brand)
+ * + ~/KhassinX/_template/_brand/Scripture Suite/Miqra/brand/BRAND_BOOK.md §3 (palette).
+ *
+ * Brand origin: "Miqra" (מִקְרָא) — Hebrew for "that which is read" (the Tanakh).
+ * Palette grounded in tradition: tekhelet blue + gold = the Tabernacle, the Torah
+ * mantle (blue velvet + gold embroidery), the scroll's ornaments. The icon is the
+ * Sefer Torah (Torah scroll) — gold rollers flanking a cream parchment panel.
+ *
+ * App brand signature (light):
+ *   - Tekhelet CTA    #2F4A8F  (CTAs, links — WCAG AA on white)
+ *   - Tekhelet hover  #24386B  (active state, darker)
+ *   - Parchment soft  #F4E6C2  (subtle backgrounds — the parchment that is read)
+ *   - Tekhelet bright #3A5BD0  (decorative — borders/badges, NOT body text)
+ * Mirrors the planned tekhelet+gold family in the Miqra app interior.
+ */
+
+:root {
+  /* ─── Light theme (default — Apple canon) ─── */
+
+  /* Backgrounds (Apple canon) */
+  --miqra-bg: #FFFFFF;
+  --miqra-bg-section: #F5F5F7;
+  --miqra-bg-card: #FBFBFD;
+  --miqra-bg-elevated: #FFFFFF;
+
+  /* Text (Apple canon — exact apple.com values) */
+  --miqra-text-primary: #1D1D1F;
+  --miqra-text-secondary: #6E6E73;
+  --miqra-text-tertiary: #86868B;
+  --miqra-text-disabled: #C7C7CC;
+
+  /* Accents — Miqra tekhelet (royal blue) + gold signature (matches Icon Composer .icon bundle) */
+  --miqra-accent: #2F4A8F;            /* Tekhelet CTA/link — WCAG AA on white */
+  --miqra-accent-strong: #24386B;     /* Hover/active darker tekhelet */
+  --miqra-accent-soft: #F4E6C2;       /* Subtle backgrounds — cream parchment that is read */
+  --miqra-accent-bright: #3A5BD0;     /* Brighter tekhelet — decorative (borders/badges, NOT body text) */
+  --miqra-gold: #E9C25E;              /* Gold — the rollers (atzei chaim) + gilded ornament */
+
+  /* Borders (Apple hairline) */
+  --miqra-border: #D2D2D7;
+  --miqra-border-strong: #86868B;
+
+  /* Status (Apple system colors) */
+  --miqra-success: #34C759;
+  --miqra-warning: #FF9500;
+  --miqra-danger: #FF3B30;
+
+  /* ─── Re-bind to Layer 1 token names so primitives.css works ─── */
+  --khassinx-bg: var(--miqra-bg);
+  --khassinx-bg-section: var(--miqra-bg-section);
+  --khassinx-bg-card: var(--miqra-bg-card);
+  --khassinx-bg-elevated: var(--miqra-bg-elevated);
+  --khassinx-text-primary: var(--miqra-text-primary);
+  --khassinx-text-secondary: var(--miqra-text-secondary);
+  --khassinx-text-tertiary: var(--miqra-text-tertiary);
+  --khassinx-text-disabled: var(--miqra-text-disabled);
+  --khassinx-accent: var(--miqra-accent);
+  --khassinx-accent-strong: var(--miqra-accent-strong);
+  --khassinx-accent-soft: var(--miqra-accent-soft);
+  --khassinx-border: var(--miqra-border);
+  --khassinx-border-strong: var(--miqra-border-strong);
+  --khassinx-success: var(--miqra-success);
+  --khassinx-warning: var(--miqra-warning);
+  --khassinx-danger: var(--miqra-danger);
+
+  /* Spacing scale (Layer 3 — Apple-grade) */
+  --space-xs: 4px;
+  --space-s: 8px;
+  --space-m: 12px;
+  --space-md: 16px;
+  --space-lg: 20px;
+  --space-xl: 24px;
+  --space-2xl: 32px;
+  --space-3xl: 48px;
+  --space-4xl: 64px;
+  --space-5xl: 96px;
+  --space-6xl: 128px;
+  --space-7xl: 160px;
+  --space-8xl: 200px;
+
+  /* Container max-widths (Apple-canonical 980px) */
+  --container-narrow: 640px;
+  --container-default: 980px;
+  --container-wide: 1280px;
+
+  /* Border radius (Apple soft corners) */
+  --radius-s: 6px;
+  --radius-m: 8px;
+  --radius-md: 12px;
+  --radius-lg: 18px;
+  --radius-xl: 22px;
+  --radius-2xl: 28px;
+  --radius-pill: 999px;
+
+  /* Typography (Layer 3 Apple canon) */
+  --font-stack: -apple-system, BlinkMacSystemFont, "SF Pro Display", "SF Pro Text", "Helvetica Neue", Arial, sans-serif;
+  --font-mono: "SF Mono", Menlo, Consolas, monospace;
+
+  --fs-display-xl: 80px;
+  --fs-display-l: 56px;
+  --fs-display-m: 40px;
+  --fs-display-s: 32px;
+  --fs-h1: 48px;
+  --fs-h2: 32px;
+  --fs-h3: 24px;
+  --fs-h4: 19px;
+  --fs-body-l: 19px;
+  --fs-body: 17px;
+  --fs-body-s: 15px;
+  --fs-caption: 13px;
+  --fs-micro: 11px;
+
+  --fw-regular: 400;
+  --fw-medium: 500;
+  --fw-semibold: 600;
+  --fw-bold: 700;
+
+  --lh-display: 1.05;
+  --lh-heading: 1.1;
+  --lh-body: 1.47;
+  --lh-tight: 1.2;
+
+  --ls-display: -0.025em;
+  --ls-heading: -0.02em;
+  --ls-body: -0.005em;
+  --ls-caps: 0.05em;
+
+  /* Shadows (Apple-canonical subtle) */
+  --shadow-sm: 0 1px 2px rgba(0, 0, 0, 0.04);
+  --shadow-md: 0 4px 12px rgba(0, 0, 0, 0.06);
+  --shadow-lg: 0 12px 32px rgba(0, 0, 0, 0.08);
+
+  /* Transitions (Apple-canonical 200-300ms ease) */
+  --transition-fast: 150ms ease;
+  --transition-base: 250ms ease;
+  --transition-slow: 400ms ease;
+}
+
+/* ─── Dark theme (auto via prefers-color-scheme) ─── */
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    /* Backgrounds (Apple OLED-optimized) */
+    --miqra-bg: #000000;
+    --miqra-bg-section: #1D1D1F;
+    --miqra-bg-card: #2C2C2E;
+    --miqra-bg-elevated: #2C2C2E;
+
+    /* Text (Apple canon dark) */
+    --miqra-text-primary: #F5F5F7;
+    --miqra-text-secondary: #A1A1A6;
+    --miqra-text-tertiary: #8E8E93;
+    --miqra-text-disabled: #48484A;
+
+    /* Accents — tekhelet lightened for dark-mode legibility */
+    --miqra-accent: #7B95E8;            /* Tekhelet brightened for dark-mode legibility */
+    --miqra-accent-strong: #9DB1F0;     /* Lighter tekhelet hover */
+    --miqra-accent-soft: #1A2547;       /* Deep night-blue subtle bg (the Tabernacle night field) */
+    --miqra-accent-bright: #A6B8F2;     /* Brighter tekhelet decorative for dark */
+    --miqra-gold: #E9C25E;              /* Gold stays warm in dark */
+
+    /* Borders (Apple dark hairline) */
+    --miqra-border: #38383A;
+    --miqra-border-strong: #48484A;
+
+    /* Status (Apple system colors dark) */
+    --miqra-success: #30D158;
+    --miqra-warning: #FF9F0A;
+    --miqra-danger: #FF453A;
+
+    /* Re-bind to Layer 1 names */
+    --khassinx-bg: var(--miqra-bg);
+    --khassinx-bg-section: var(--miqra-bg-section);
+    --khassinx-bg-card: var(--miqra-bg-card);
+    --khassinx-bg-elevated: var(--miqra-bg-elevated);
+    --khassinx-text-primary: var(--miqra-text-primary);
+    --khassinx-text-secondary: var(--miqra-text-secondary);
+    --khassinx-text-tertiary: var(--miqra-text-tertiary);
+    --khassinx-text-disabled: var(--miqra-text-disabled);
+    --khassinx-accent: var(--miqra-accent);
+    --khassinx-accent-strong: var(--miqra-accent-strong);
+    --khassinx-accent-soft: var(--miqra-accent-soft);
+    --khassinx-border: var(--miqra-border);
+    --khassinx-border-strong: var(--miqra-border-strong);
+    --khassinx-success: var(--miqra-success);
+    --khassinx-warning: var(--miqra-warning);
+    --khassinx-danger: var(--miqra-danger);
+  }
+}
