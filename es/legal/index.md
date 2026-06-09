@@ -27,4 +27,4 @@ Documentos legales públicos de **Miqra**.
 
 ## Sobre el texto sagrado
 
-El texto del Tanaj y las traducciones presentadas en Miqra son de **dominio público** (hebreo masorético, Códice de Leningrado / Westminster Leningrad Codex, con una traducción de dominio público). Cada edición se atribuye en la app. La app Miqra en sí es **propietaria**.
+El texto del Tanaj y la traducción presentados en Miqra son de **dominio público**. El hebreo es el texto masorético "Tanach with Ta'amei Hamikra" (con cantilación y vocalización), y la traducción al inglés es "The Holy Scriptures: A New Translation" (Jewish Publication Society, 1917). Ambos se obtuvieron vía Sefaria.org. Cada edición se atribuye en la app. La app Miqra en sí es **propietaria**.

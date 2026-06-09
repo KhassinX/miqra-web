@@ -36,7 +36,7 @@ Miqra is offered **pro bono — free of charge, with no advertising and no track
 
 ## The scripture text
 
-The Hebrew text of the Tanakh (masoretic text, Westminster Leningrad Codex) and the translations presented in Miqra are in the **public domain**. Miqra attributes each edition it uses. We make no claim of ownership over the public-domain scripture or translations. The app's own software, design, and assets are proprietary to KhassinX.
+The Hebrew text of the Tanakh — the masoretic text "Tanach with Ta'amei Hamikra" — and the English translation, "The Holy Scriptures: A New Translation" (Jewish Publication Society, 1917), are both in the **public domain** and were obtained via Sefaria.org. Miqra attributes each edition it uses. We make no claim of ownership over the public-domain scripture or translations. The app's own software, design, and assets are proprietary to KhassinX.
 
 ## Provided "as is"
 
