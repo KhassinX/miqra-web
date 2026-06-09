@@ -5,7 +5,7 @@ permalink: /es/legal/terms/
 lang: es
 canonical_en: /legal/terms/
 canonical_es: /es/legal/terms/
-updated: 2026-06-05
+updated: 2026-06-09
 ---
 
 # Términos de uso
@@ -34,7 +34,7 @@ Miqra se ofrece **pro bono — gratis, sin publicidad y sin rastreo.** Una propi
 
 ## El texto sagrado
 
-El texto hebreo del Tanaj (texto masorético, Códice de Leningrado / Westminster Leningrad Codex) y las traducciones presentadas en Miqra son de **dominio público**. Miqra atribuye cada edición que usa. No reclamamos propiedad sobre la escritura ni las traducciones de dominio público. El software, el diseño y los recursos propios de la app son propiedad de KhassinX.
+El texto hebreo del Tanaj — el texto masorético "Tanach with Ta'amei Hamikra" — y la traducción al inglés, "The Holy Scriptures: A New Translation" (Jewish Publication Society, 1917), son ambos de **dominio público** y se obtuvieron vía Sefaria.org. Miqra atribuye cada edición que usa. No reclamamos propiedad sobre la escritura ni las traducciones de dominio público. El software, el diseño y los recursos propios de la app son propiedad de KhassinX.
 
 ## Provista "tal como está"
 
@@ -57,4 +57,5 @@ Si cambiamos estos términos, la nueva versión reemplaza a la anterior en esta 
 ## Contacto
 
 - **General**: [hello@khassinx.com](mailto:hello@khassinx.com)
+- **Legal y copyright**: [legal@khassinx.com](mailto:legal@khassinx.com)
 - **Operador**: KHASSINX LLC, una sociedad de responsabilidad limitada de Florida
