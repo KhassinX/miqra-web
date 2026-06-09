@@ -5,7 +5,7 @@ permalink: /es/legal/terms/
 lang: es
 canonical_en: /legal/terms/
 canonical_es: /es/legal/terms/
-updated: 2026-06-05
+updated: 2026-06-09
 ---
 
 # Términos de uso
@@ -57,4 +57,5 @@ Si cambiamos estos términos, la nueva versión reemplaza a la anterior en esta 
 ## Contacto
 
 - **General**: [hello@khassinx.com](mailto:hello@khassinx.com)
+- **Legal y copyright**: [legal@khassinx.com](mailto:legal@khassinx.com)
 - **Operador**: KHASSINX LLC, una sociedad de responsabilidad limitada de Florida
