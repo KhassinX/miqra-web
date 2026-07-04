@@ -5,12 +5,12 @@ permalink: /es/legal/privacy/
 lang: es
 canonical_en: /legal/privacy/
 canonical_es: /es/legal/privacy/
-updated: 2026-06-09
+updated: 2026-07-02
 ---
 
 # Política de Privacidad de Miqra
 
-**Última actualización:** 2026-06-09
+**Última actualización:** 2 de julio de 2026
 **Responsable:** KHASSINX LLC
 
 Miqra es una app para leer escritura sagrada. Está hecha privacy-first: **no recolectamos ninguno de tus datos, y nada de lo que haces en la app se nos envía.** No tenemos servidores ni analítica.
@@ -27,7 +27,15 @@ Miqra es una app para leer escritura sagrada. Está hecha privacy-first: **no re
 
 ## Tus datos e iCloud
 
-La versión actual mantiene todo en tu dispositivo y **no sincroniza tus datos a ningún lado.** Si una versión futura agrega sincronización por iCloud, tus propios datos (marcadores, notas, posición de lectura) se sincronizarían entre tus dispositivos a través de **tu propia cuenta de iCloud**, bajo los términos de privacidad de Apple — nosotros nunca tendríamos acceso, y el texto sagrado nunca se sincronizaría.
+Tus propios datos — posición de lectura, marcadores, resaltados y notas — se guardan en tu dispositivo y se sincronizan entre tus dispositivos a través de **tu propia cuenta de iCloud** (iCloud Key-Value Store y una base de datos privada de CloudKit), bajo los términos de privacidad de Apple. Nunca tenemos acceso: viven en tu iCloud personal, no en un servidor nuestro. El texto sagrado nunca se sincroniza — cada dispositivo ya trae el texto completo. Si no has iniciado sesión en iCloud, todo sigue funcionando localmente en tu dispositivo. Para eliminar datos sincronizados, borra marcadores, resaltados o notas en la app (los borrados se propagan a tus otros dispositivos), o gestiona el almacenamiento de iCloud en Ajustes.
+
+### Propinas
+
+Las apps son gratuitas. Un frasco de propinas opcional te permite apoyar el proyecto a través del sistema de compras integradas de Apple. El pago lo procesa Apple por completo; no recibimos ninguna información personal tuya.
+
+### Diagnósticos
+
+Mediante los diagnósticos estándar on-device de Apple (MetricKit), la app puede recibir del sistema reportes anónimos de rendimiento, como tiempo de arranque o diagnósticos de fallos. Esos reportes se guardan solo en tu dispositivo y nunca se nos transmiten.
 
 ## Niños
 
