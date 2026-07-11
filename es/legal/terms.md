@@ -20,7 +20,7 @@ Al instalar o usar Miqra, aceptas estos términos. Si no estás de acuerdo, no u
 
 Miqra es una aplicación para iOS, iPadOS, macOS y watchOS para leer el Tanaj (las Escrituras hebreas). Presenta una edición de dominio público del texto junto a una traducción de dominio público, y ofrece una concordancia en el dispositivo que muestra pasajes relacionados. **Miqra no interpreta, no parafrasea, no resume ni genera escritura.** Muestra el texto tal como es.
 
-La app se distribuye exclusivamente a través de la Apple App Store. El acuerdo estándar de licencia de Apple para usuario final (el "Licensed Application End User License Agreement") también aplica al uso de Miqra; en caso de conflicto entre estos términos y el EULA de Apple, prevalece el EULA de Apple en lo que esté dentro de su alcance.
+La app se distribuye exclusivamente a través de la App Store. El acuerdo estándar de licencia de Apple para usuario final (el "Licensed Application End User License Agreement") también aplica al uso de Miqra; en caso de conflicto entre estos términos y el EULA de Apple, prevalece el EULA de Apple en lo que esté dentro de su alcance.
 
 ## Licencia
 
