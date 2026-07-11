@@ -56,8 +56,10 @@ footer_nav:
       url: /security/
     - title: Press
       url: /press/
+    - title: Support
+      url: /support/
     - title: Contact
-      url: mailto:hello@khassinx.com
+      url: /contact/
   es:
     - title: Privacidad
       url: /es/legal/privacy/
@@ -69,8 +71,10 @@ footer_nav:
       url: /es/security/
     - title: Prensa
       url: /es/press/
+    - title: Soporte
+      url: /es/support/
     - title: Contacto
-      url: mailto:hello@khassinx.com
+      url: /es/contact/
 
 # UI strings (skip-link y "Part of ecosystem") consumed by base.html
 ui_strings:
