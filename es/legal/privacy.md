@@ -10,7 +10,6 @@ updated: 2026-07-11
 
 # Política de Privacidad de Miqra
 
-**Última actualización:** 2 de julio de 2026
 **Responsable:** KHASSINX LLC
 
 Miqra es una app para leer escritura sagrada. Está hecha privacy-first: **no recolectamos ninguno de tus datos, y nada de lo que haces en la app se nos envía.** No tenemos servidores ni analítica.
@@ -35,7 +34,7 @@ Las apps son gratuitas. Un frasco de propinas opcional te permite apoyar el proy
 
 ### Diagnósticos
 
-Mediante los diagnósticos estándar on-device de Apple (MetricKit), la app puede recibir del sistema reportes anónimos de rendimiento, como tiempo de arranque o diagnósticos de fallos. Esos reportes se guardan solo en tu dispositivo y nunca se nos transmiten.
+Mediante los diagnósticos estándar de Apple en el dispositivo (MetricKit), la app puede recibir del sistema reportes anónimos de rendimiento, como tiempo de arranque o diagnósticos de fallos. Esos reportes se guardan solo en tu dispositivo y nunca se nos transmiten.
 
 ## Niños
 
