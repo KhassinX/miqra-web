@@ -14,7 +14,7 @@ redirect_from:
 
 **Effective date: 2026-06-05**
 
-These are the terms for using **Miqra**, a Tanakh reader for Apple platforms operated by **KHASSINX LLC, a Florida limited liability company** ("KhassinX", "we").
+These are the terms for using **Miqra**, a Tanakh reader for Apple platforms operated by **KHASSINX LLC, a Florida limited liability company** ("KHASSINX", "we").
 
 By installing or using Miqra, you agree to these terms. If you do not agree, do not use the app.
 
@@ -36,7 +36,7 @@ Miqra is offered **pro bono — free of charge, with no advertising and no track
 
 ## The scripture text
 
-The Hebrew text of the Tanakh — the masoretic text "Tanach with Ta'amei Hamikra" — and the English translation, "The Holy Scriptures: A New Translation" (Jewish Publication Society, 1917), are both in the **public domain** and were obtained via Sefaria.org. Miqra attributes each edition it uses. We make no claim of ownership over the public-domain scripture or translations. The app's own software, design, and assets are proprietary to KhassinX.
+The Hebrew text of the Tanakh — the masoretic text "Tanach with Ta'amei Hamikra" — and the English translation, "The Holy Scriptures: A New Translation" (Jewish Publication Society, 1917), are both in the **public domain** and were obtained via Sefaria.org. Miqra attributes each edition it uses. We make no claim of ownership over the public-domain scripture or translations. The app's own software, design, and assets are proprietary to KHASSINX.
 
 ## Provided "as is"
 

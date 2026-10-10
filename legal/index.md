@@ -34,4 +34,4 @@ The Tanakh text and translation presented in Miqra are in the **public domain**.
 
 ## Trademarks
 
-Apple, iPhone, iPad, Mac, Apple Watch, App Store, iCloud, CloudKit, iPadOS, macOS, and watchOS are trademarks of Apple Inc., registered in the U.S. and other countries. IOS is a trademark or registered trademark of Cisco in the U.S. and other countries and is used under license. KhassinX and Miqra are trademarks of KHASSINX LLC. All other trademarks are the property of their respective owners.
+Apple, iPhone, iPad, Mac, Apple Watch, App Store, iCloud, CloudKit, iPadOS, macOS, and watchOS are trademarks of Apple Inc., registered in the U.S. and other countries. IOS is a trademark or registered trademark of Cisco in the U.S. and other countries and is used under license. KHASSINX and Miqra are trademarks of KHASSINX LLC. All other trademarks are the property of their respective owners.
