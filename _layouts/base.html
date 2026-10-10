@@ -79,7 +79,7 @@
     "url": {{ site.url | jsonify }},
     "description": {{ site.description | jsonify }},
     "applicationCategory": "{{ site.app_category | default: 'Reference' }}",
-    "operatingSystem": "iOS, iPadOS, macOS, watchOS",
+    "operatingSystem": "iOS, iPadOS",
     "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD" },
     "publisher": { "@type": "Organization", "name": {{ site.org.name | default: "KhassinX" | jsonify }}, "legalName": {{ site.org.legal_name | default: "KHASSINX LLC" | jsonify }}, "url": "https://khassinx.com" }
   }
