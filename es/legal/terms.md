@@ -12,7 +12,7 @@ updated: 2026-07-11
 
 **Fecha de vigencia: 2026-06-05**
 
-Estos son los términos para usar **Miqra**, un lector del Tanaj para plataformas Apple operado por **KHASSINX LLC, una sociedad de responsabilidad limitada de Florida** ("KhassinX", "nosotros").
+Estos son los términos para usar **Miqra**, un lector del Tanaj para plataformas Apple operado por **KHASSINX LLC, una sociedad de responsabilidad limitada de Florida** ("KHASSINX", "nosotros").
 
 Al instalar o usar Miqra, aceptas estos términos. Si no estás de acuerdo, no uses la app.
 
@@ -34,7 +34,7 @@ Miqra se ofrece **pro bono — gratis, sin publicidad y sin rastreo.** Una propi
 
 ## El texto sagrado
 
-El texto hebreo del Tanaj — el texto masorético "Tanach with Ta'amei Hamikra" — y la traducción al inglés, "The Holy Scriptures: A New Translation" (Jewish Publication Society, 1917), son ambos de **dominio público** y se obtuvieron vía Sefaria.org. Miqra atribuye cada edición que usa. No reclamamos propiedad sobre la escritura ni las traducciones de dominio público. El software, el diseño y los recursos propios de la app son propiedad de KhassinX.
+El texto hebreo del Tanaj — el texto masorético "Tanach with Ta'amei Hamikra" — y la traducción al inglés, "The Holy Scriptures: A New Translation" (Jewish Publication Society, 1917), son ambos de **dominio público** y se obtuvieron vía Sefaria.org. Miqra atribuye cada edición que usa. No reclamamos propiedad sobre la escritura ni las traducciones de dominio público. El software, el diseño y los recursos propios de la app son propiedad de KHASSINX.
 
 ## Provista "tal como está"
 
