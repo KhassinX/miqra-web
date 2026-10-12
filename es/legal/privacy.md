@@ -20,7 +20,7 @@ Miqra es una app para leer escritura sagrada. Está hecha privacy-first: **no re
 
 ## Cómo funciona la app en tu dispositivo
 
-- **La lectura y la búsqueda ocurren por completo en tu dispositivo.** El texto sagrado y el índice de búsqueda vienen incluidos en la app (ediciones de dominio público o usadas con autorización de su autor). Tus preguntas, búsquedas, posición de lectura, marcadores y notas nunca salen de tu dispositivo hacia nosotros ni hacia un tercero.
+- **La lectura y la búsqueda ocurren por completo en tu dispositivo.** El texto sagrado viene incluido en la app (ediciones de dominio público o usadas con autorización de su autor). Los índices de búsqueda se construyen en tu dispositivo la primera vez que buscas; lo que se guarda contiene referencias de versículos y vectores de relevancia, nunca texto sagrado. Tus preguntas, búsquedas, posición de lectura, marcadores y notas nunca salen de tu dispositivo hacia nosotros ni hacia un tercero.
 - **La búsqueda semántica en el dispositivo** usa `NLContextualEmbedding` de Apple, un modelo que corre localmente en tu dispositivo. La primera vez que se usa, el sistema operativo puede descargar el modelo desde los servidores de Apple (Apple → tu dispositivo). Esa transferencia no contiene datos personales ni información sobre lo que lees o buscas.
 - **Sin IA de terceros.** La app nunca envía tus consultas, tu lectura ni el texto sagrado a ningún proveedor de IA externo ni a ningún servicio de terceros.
 
@@ -42,7 +42,7 @@ Si esta política cambia, actualizaremos esta página y la fecha de "Última act
 
 ## Tus derechos
 
-Según dónde vivas, puedes tener derechos sobre tus datos personales — acceder a ellos, corregirlos, eliminarlos o llevártelos a otro lugar. Como Miqra no recolecta ningún dato personal, no hay nada que podamos consultar, corregir ni eliminar. Tus derechos y cómo ejercerlos se explican en el **[Centro de Derechos](https://khassinx.com/legal/your-rights/)** de KHASSINX, que cubre la UE/EEE, el Reino Unido, España, California, otros estados de EE. UU. y el resto del mundo.
+Según dónde vivas, puedes tener derechos sobre tus datos personales — acceder a ellos, corregirlos, eliminarlos o llevártelos a otro lugar. Como Miqra no recolecta ningún dato personal, no hay nada que podamos consultar, corregir ni eliminar. Tus derechos y cómo ejercerlos se explican en el **[Centro de Derechos](https://khassinx.com/es/legal/your-rights/)** de KHASSINX, que cubre la UE/EEE, el Reino Unido, España, California, otros estados de EE. UU. y el resto del mundo.
 
 ## Este sitio web
 
