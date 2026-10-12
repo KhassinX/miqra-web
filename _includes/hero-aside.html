@@ -1,0 +1,6 @@
+{%- comment -%} Columna derecha del hero: lo que afirma el titular, dibujado como dato (asvab dibuja sus nueve puntajes). Propia de cada app: se reemplaza entera. {%- endcomment -%}
+<dl class="defs">
+  {%- for d in h.aside %}
+  <div><dt>{{ d.k }}</dt><dd>{{ d.v }}</dd></div>
+  {%- endfor %}
+</dl>

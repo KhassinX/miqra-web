@@ -1,23 +1,91 @@
 ---
 layout: base
 ---
-{%- assign lang_key = page.lang | default: site.lang | default: 'en' -%}
-{%- assign ux = site.ui_theme[lang_key] | default: site.ui_theme.en -%}
-{%- capture meta %}{% if page.updated %}
-  <p class="meta">{{ ux.last_updated }}: {{ page.updated }}</p>{% endif %}{% endcapture -%}
-{%- comment -%} A page whose Markdown already opens with its own # title keeps that one h1, with the date under it. {%- endcomment %}
-<article class="doc wrap">
-  {%- if content contains '<h1' %}
-  {%- capture tail %}</h1>{{ meta }}{% endcapture %}
-  <div class="doc-body prose">
-{{ content | replace_first: '</h1>', tail }}
-  </div>
-  {%- else %}
-  {%- if page.title %}
-  <h1>{{ page.title }}</h1>
-  {%- endif %}{{ meta }}
-  <div class="doc-body prose">
-{{ content }}
-  </div>
+{%- assign ui = site.ui_strings[page.lang] | default: site.ui_strings.en -%}
+{%- assign es = false -%}{%- if page.lang == 'es' %}{%- assign es = true -%}{%- endif -%}
+{%- assign heads = content | split: '<h2 id="' -%}
+{%- assign toc = false -%}{%- if page.version and heads.size > 2 %}{%- assign toc = true -%}{%- endif %}
+<article class="doc">
+<header class="wrap doc-head">
+  <h1>{{ page.h1 | default: page.title }}</h1>
+  {%- if page.version %}
+  {%- assign eff = page.effective | default: page.updated -%}
+  {%- capture day %}{% include date.html d=eff lang=page.lang %}{% endcapture -%}
+  {%- capture upd %}{% include date.html d=page.updated lang=page.lang %}{% endcapture %}
+  <p class="meta">{{ ui.effective }} {{ day }} · {{ ui.version }} {{ page.version }}{% if upd != day %} · {{ ui.last_updated }} {{ upd }}{% endif %}</p>
+  {%- elsif page.updated %}
+  <p class="meta">{{ ui.last_updated }}: {% include date.html d=page.updated lang=page.lang %}</p>
   {%- endif %}
+</header>
+<div class="wrap band doc-main {% if toc %}has-toc{% else %}no-toc{% endif %}">
+  {%- if page.summary %}
+  <section class="brief" aria-labelledby="brief-h">
+    <h2 id="brief-h">{{ ui.in_short }}</h2>
+    <ul>
+      {%- for s in page.summary %}
+      <li>{{ s }}</li>
+      {%- endfor %}
+    </ul>
+  </section>
+  {%- endif %}
+  {%- if toc %}
+  <nav class="toc" aria-labelledby="toc-h">
+    <h2 id="toc-h">{{ ui.on_this_page }}</h2>
+    <ol>
+      {%- for h in heads offset: 1 %}
+      {%- assign id = h | split: '"' | first %}
+      <li><a href="#{{ id }}">{{ h | split: '</h2>' | first | remove_first: id | remove_first: '">' | strip_html }}</a></li>
+      {%- endfor %}
+    </ol>
+  </nav>
+  {%- endif %}
+  <div class="doc-body prose">
+{{ content | replace: '<table', '<div class="table-wrap"><table' | replace: '</table>', '</table></div>' }}
+  </div>
+  {%- if page.related %}
+  <nav class="related" aria-labelledby="related-h">
+    <h2 id="related-h">{{ ui.related }}</h2>
+    <ul>
+      {%- for u in page.related %}
+      {%- assign r = site.pages | where: "url", u | first %}
+      <li><a href="{{ u }}">{{ r.title }}</a></li>
+      {%- endfor %}
+    </ul>
+  </nav>
+  {%- endif %}
+</div>
 </article>
+{%- assign ruta = page.url -%}
+{%- if es %}{%- assign ruta = ruta | remove_first: '/es' -%}{%- endif -%}
+{%- assign partes = ruta | remove_first: '/' | split: '/' -%}
+{%- assign idioma = 'en' -%}{%- if es %}{%- assign idioma = 'es' -%}{%- endif -%}
+{%- assign seccion = partes[0] -%}
+{%- assign nombre_seccion = site.breadcrumbs[idioma][seccion] -%}
+{% if partes.size > 1 and nombre_seccion %}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "{% if es %}Inicio{% else %}Home{% endif %}",
+      "item": "{{ site.url }}{% if es %}/es/{% else %}/{% endif %}"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": {{ nombre_seccion | jsonify }},
+      "item": "{{ site.url }}{% if es %}/es{% endif %}/{{ seccion }}/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": {{ page.title | jsonify }},
+      "item": "{{ site.url }}{{ page.url }}"
+    }
+  ]
+}
+</script>
+{% endif %}

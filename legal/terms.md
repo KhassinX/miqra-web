@@ -1,6 +1,7 @@
 ---
 layout: prose
-title: Miqra — Terms of Use
+title: Terms of Use
+description: "The terms for using Miqra, a free Tanakh reader for iPhone, iPad and Mac by KHASSINX LLC."
 permalink: /legal/terms/
 lang: en
 canonical_en: /legal/terms/
@@ -10,8 +11,6 @@ redirect_from:
   - /terms/
 ---
 
-# Terms of Use
-
 **Effective date: 2026-06-05**
 
 These are the terms for using **Miqra**, a Tanakh reader for Apple platforms operated by **KHASSINX LLC, a Florida limited liability company** ("KHASSINX", "we").
@@ -20,7 +19,7 @@ By installing or using Miqra, you agree to these terms. If you do not agree, do 
 
 ## The app
 
-Miqra is an iOS and iPadOS application for reading the Tanakh (the Hebrew Scriptures). It presents the Hebrew text alongside a translation, and offers an on-device concordance that surfaces related passages. **Miqra does not interpret, paraphrase, summarize, or generate scripture.** It shows the text as it is.
+Miqra is an iOS, iPadOS, and macOS application for reading the Tanakh (the Hebrew Scriptures). It presents the Hebrew text alongside a translation, and offers an on-device concordance that surfaces related passages. **Miqra does not interpret, paraphrase, summarize, or generate scripture.** It shows the text as it is.
 
 The app is distributed exclusively through the App Store. Apple's standard end-user license agreement (the "Licensed Application End User License Agreement") also applies to your use of Miqra; in case of conflict between these terms and Apple's EULA, Apple's EULA prevails for matters within its scope.
 
@@ -32,11 +31,11 @@ You may not reverse-engineer, decompile, or disassemble the app (except where ap
 
 ## Pricing
 
-Miqra is offered **pro bono — free of charge, with no advertising and no tracking.** There is no subscription and no paywall on the text.
+Miqra is offered **pro bono: free of charge, with no advertising and no tracking.** There is no subscription and no paywall on the text.
 
 ## The scripture text
 
-The Hebrew text of the Tanakh — the masoretic text "Tanach with Ta'amei Hamikra" — and the English translation, "The Holy Scriptures: A New Translation" (Jewish Publication Society, 1917), are both in the **public domain** and were obtained via Sefaria.org. Miqra attributes each edition it uses. We make no claim of ownership over the public-domain scripture or translations. The app's own software, design, and assets are proprietary to KHASSINX.
+The Hebrew text of the Tanakh (the masoretic text "Tanach with Ta'amei Hamikra") and the English translation, "The Holy Scriptures: A New Translation" (Jewish Publication Society, 1917), are both in the **public domain** and were obtained via Sefaria.org. Miqra attributes each edition it uses. We make no claim of ownership over the public-domain scripture or translations. The app's own software, design, and assets are proprietary to KHASSINX.
 
 ## Provided "as is"
 
@@ -58,7 +57,7 @@ If we change these terms, the new version replaces the old at this URL. The prev
 
 ## Availability and unofficial installs
 
-Miqra is distributed exclusively through the App Store, and only in the territories where we choose to offer it. If you obtain, install, or use the app through any other channel — including sideloading, jailbroken devices, or circumventing App Store security or regional restrictions — that use is unauthorized and unsupported: we are not responsible for it, we provide no warranty or support for it, and complying with the laws that apply to you is solely your responsibility.
+Miqra is distributed exclusively through the App Store, and only in the territories where we choose to offer it. If you obtain, install, or use the app through any other channel (including sideloading, jailbroken devices, or circumventing App Store security or regional restrictions), that use is unauthorized and unsupported: we are not responsible for it, we provide no warranty or support for it, and complying with the laws that apply to you is solely your responsibility.
 
 ## Indemnification
 
