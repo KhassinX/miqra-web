@@ -5,7 +5,7 @@ permalink: /legal/terms/
 lang: en
 canonical_en: /legal/terms/
 canonical_es: /es/legal/terms/
-updated: 2026-07-11
+updated: 2026-10-11
 redirect_from:
   - /terms/
 ---
@@ -32,7 +32,7 @@ You may not reverse-engineer, decompile, or disassemble the app (except where ap
 
 ## Pricing
 
-Miqra is offered **pro bono — free of charge, with no advertising and no tracking.** An optional in-app tip jar lets you support the work voluntarily; it unlocks no content and is not required to use any feature. There is no subscription and no paywall on the text. Any tip is processed by Apple via the App Store; we never see your payment information.
+Miqra is offered **pro bono — free of charge, with no advertising and no tracking.** There is no subscription and no paywall on the text.
 
 ## The scripture text
 
