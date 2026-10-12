@@ -1,6 +1,6 @@
 ---
 layout: prose
-title: Miqra — Privacy Policy
+title: Privacy Policy
 permalink: /legal/privacy/
 lang: en
 canonical_en: /legal/privacy/
