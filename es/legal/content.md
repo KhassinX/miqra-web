@@ -5,7 +5,7 @@ permalink: /es/legal/content/
 lang: es
 canonical_en: /legal/content/
 canonical_es: /es/legal/content/
-updated: 2026-07-18
+updated: 2026-10-11
 ---
 
 # Contenido y derechos
