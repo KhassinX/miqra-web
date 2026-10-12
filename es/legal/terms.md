@@ -5,7 +5,7 @@ permalink: /es/legal/terms/
 lang: es
 canonical_en: /legal/terms/
 canonical_es: /es/legal/terms/
-updated: 2026-07-11
+updated: 2026-10-11
 ---
 
 # Términos de uso
@@ -30,7 +30,7 @@ No puedes hacer reverse-engineering, decompilar ni desensamblar la app (salvo qu
 
 ## Precios
 
-Miqra se ofrece **pro bono — gratis, sin publicidad y sin rastreo.** Una propina opcional dentro de la app te permite apoyar el trabajo de forma voluntaria; no desbloquea ningún contenido y no es necesaria para usar ninguna función. No hay suscripción ni muro de pago sobre el texto. Cualquier propina la procesa Apple a través de la App Store; nunca vemos tu información de pago.
+Miqra se ofrece **pro bono — gratis, sin publicidad y sin rastreo.** No hay suscripción ni muro de pago sobre el texto.
 
 ## El texto sagrado
 
