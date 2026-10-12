@@ -5,7 +5,7 @@ permalink: /legal/
 lang: en
 canonical_en: /legal/
 canonical_es: /es/legal/
-updated: 2026-07-18
+updated: 2026-10-11
 ---
 
 # Legal
@@ -30,7 +30,14 @@ Short aliases: [/privacy/](/legal/privacy/) · [/terms/](/legal/terms/)
 
 ## On the scripture text
 
-The Tanakh text and translation presented in Miqra are in the **public domain**. The Hebrew is the masoretic text "Tanach with Ta'amei Hamikra" (with cantillation and vowel points), and the English is "The Holy Scriptures: A New Translation" (Jewish Publication Society, 1917). Both were obtained via Sefaria.org. Each edition is attributed in the app. The Miqra app itself is **proprietary**.
+Below is the credit for each edition, the same one the app shows. The Miqra app itself is **proprietary**.
+
+### Sources
+
+- **Hebrew text**: Tanach with Ta'amei Hamikra (Sefaria.org)
+- **English translation**: The Holy Scriptures: A New Translation (JPS 1917)
+- **French translation**: Bible du Rabbinat 1899 (Sefaria.org)
+- **Spanish translation**: [Tanaj en español latinoamericano (Rav Yehuda Ribco, SerJudio.com)](https://serjudio.com). <span lang="es">Tanaj en español latinoamericano, traducido por Rav Yehuda Ribco (SerJudio.com). Utilizado con autorización del autor.</span>
 
 ## Trademarks
 

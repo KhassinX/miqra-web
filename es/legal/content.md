@@ -10,7 +10,7 @@ updated: 2026-07-18
 
 # Contenido y derechos
 
-Miqra presenta el Tanaj en hebreo junto a una traducción, a partir de ediciones de dominio público y mostrado tal cual, con cada edición atribuida en la app y en nuestra página [Legal](/es/legal/). Nos tomamos en serio los derechos de autores, traductores y editores, y siempre nos alegra sumar nuevas ediciones de licencia libre.
+Miqra presenta el Tanaj en hebreo junto a una traducción, a partir de ediciones de dominio público o usadas con autorización de su autor, y mostrado tal cual, con cada edición atribuida en la app y en nuestra página [Legal](/es/legal/). Nos tomamos en serio los derechos de autores, traductores y editores, y siempre nos alegra sumar nuevas ediciones de licencia libre.
 
 ## Solicitar el retiro o la revisión de contenido {#removal}
 

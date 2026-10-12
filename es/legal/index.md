@@ -5,7 +5,7 @@ permalink: /es/legal/
 lang: es
 canonical_en: /legal/
 canonical_es: /es/legal/
-updated: 2026-07-18
+updated: 2026-10-11
 ---
 
 # Legal
@@ -28,7 +28,14 @@ Documentos legales públicos de **Miqra**.
 
 ## Sobre el texto sagrado
 
-El texto del Tanaj y la traducción presentados en Miqra son de **dominio público**. El hebreo es el texto masorético "Tanach with Ta'amei Hamikra" (con cantilación y vocalización), y la traducción al inglés es "The Holy Scriptures: A New Translation" (Jewish Publication Society, 1917). Ambos se obtuvieron vía Sefaria.org. Cada edición se atribuye en la app. La app Miqra en sí es **propietaria**.
+Abajo va el crédito de cada edición, el mismo que muestra la app. La app Miqra en sí es **propietaria**.
+
+### Fuentes
+
+- **Texto hebreo**: Tanach with Ta'amei Hamikra (Sefaria.org)
+- **Traducción al inglés**: The Holy Scriptures: A New Translation (JPS 1917)
+- **Traducción al francés**: Bible du Rabbinat 1899 (Sefaria.org)
+- **Traducción al español**: [Tanaj en español latinoamericano (Rav Yehuda Ribco, SerJudio.com)](https://serjudio.com). Tanaj en español latinoamericano, traducido por Rav Yehuda Ribco (SerJudio.com). Utilizado con autorización del autor.
 
 ## Marcas comerciales
 
