@@ -1,8 +1,8 @@
 title: Miqra
 short_name: Miqra
 app_category: Reference
-description: "A reverent Tanakh reader with an on-device, non-generative concordance: it surfaces connections, never interprets. Public-domain Hebrew text beside an authorized Spanish translation. Privacy-first, for iPhone and iPad."
-description_es: "Un lector reverente del Tanaj con una concordancia en el dispositivo y no generativa: muestra conexiones, nunca interpreta. Texto hebreo de dominio público junto a una traducción autorizada al español. Privado por diseño, para iPhone y iPad."
+description: "Miqra. A Tanakh reader. Coming to the App Store."
+description_es: "Miqra. Un lector del Tanaj. Pronto en el App Store."
 url: https://miqra.khassinx.com
 lang: en
 
@@ -20,8 +20,8 @@ apple_touch_icon: /assets/favicons/apple-touch-icon.png
 og_site_name: Miqra
 og_image: /assets/og/og-image.png
 og_image_es: /assets/og/og-image-es.png
-og_image_alt: "Miqra: the Tanakh, as it is read."
-og_image_alt_es: "Miqra: el Tanaj, como se lee."
+og_image_alt: "Miqra. A Tanakh reader. Coming to the App Store."
+og_image_alt_es: "Miqra. Un lector del Tanaj. Pronto en el App Store."
 og_image_width: 1200
 og_image_height: 630
 twitter_card: summary_large_image
