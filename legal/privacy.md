@@ -1,6 +1,8 @@
 ---
 layout: prose
-title: Miqra — Privacy Policy
+title: Privacy Policy
+description: "Miqra collects nothing: no account, no analytics, no tracking. What the app keeps, where it lives, and how to remove it."
+h1: "Privacy Policy: Miqra"
 permalink: /legal/privacy/
 lang: en
 canonical_en: /legal/privacy/
@@ -9,8 +11,6 @@ updated: 2026-10-11
 redirect_from:
   - /privacy/
 ---
-
-# Miqra Privacy Policy
 
 **Provided by:** KHASSINX LLC
 
@@ -22,13 +22,13 @@ Miqra is a reading app for sacred scripture. It is built privacy-first: **we do 
 
 ## How the app works on your device
 
-- **Reading and search happen entirely on your device.** The scripture text and the search index are bundled in the app (editions in the public domain or used with their author's permission). Your questions, searches, reading position, bookmarks, and notes never leave your device to reach us or any third party.
+- **Reading and search happen entirely on your device.** The scripture text comes bundled in the app (editions in the public domain or used with their author's permission). The search indexes are built on your device the first time you search; what is saved holds verse references and relevance vectors, never scripture text. Your questions, searches, reading position, bookmarks, and notes never leave your device to reach us or any third party.
 - **On-device semantic search** uses Apple's `NLContextualEmbedding`, a model that runs locally on your device. The first time it is used, the operating system may download the model from Apple's servers (Apple → your device). This transfer contains no personal data and no information about what you read or search.
 - **No third-party AI.** The app never sends your queries, your reading, or the scripture text to any third-party AI provider or external service.
 
 ## Your data and iCloud
 
-Your own data — reading position, bookmarks, highlights, and notes — is stored on your device and syncs across your devices through **your own iCloud account** (Apple's iCloud Key-Value Store and a private CloudKit database), under Apple's privacy terms. We never have access to it: it lives in your personal iCloud, not on any server of ours. Scripture text itself is never synced — every device already carries the full text. If you are not signed in to iCloud, everything still works and stays local to your device. To remove synced data, delete bookmarks, highlights, or notes in the app (deletions propagate to your other devices), or manage iCloud storage in Settings.
+Your own data (reading position, bookmarks, highlights, and notes) is stored on your device and syncs across your devices through **your own iCloud account** (Apple's iCloud Key-Value Store and a private CloudKit database), under Apple's privacy terms. We never have access to it: it lives in your personal iCloud, not on any server of ours. Scripture text itself is never synced: every device already carries the full text. If you are not signed in to iCloud, everything still works and stays local to your device. To remove synced data, delete bookmarks, highlights, or notes in the app (deletions propagate to your other devices), or manage iCloud storage in Settings.
 
 ### Diagnostics
 
@@ -44,7 +44,7 @@ If this policy changes, we will update this page and the "Last updated" date. Ma
 
 ## Your rights
 
-Depending on where you live, you may have rights over your personal data — to access it, correct it, delete it, or take it elsewhere. Because Miqra collects no personal data, there is nothing for us to access, correct, or delete. Your rights and how to exercise them are explained in the KHASSINX **[Rights Center](https://khassinx.com/legal/your-rights/)**, which covers the EU/EEA, the UK, Spain, California, other U.S. states, and the rest of the world.
+Depending on where you live, you may have rights over your personal data: to access it, correct it, delete it, or take it elsewhere. Because Miqra collects no personal data, there is nothing for us to access, correct, or delete. Your rights and how to exercise them are explained in the KHASSINX **[Rights Center](https://khassinx.com/legal/your-rights/)**, which covers the EU/EEA, the UK, Spain, California, other U.S. states, and the rest of the world.
 
 ## This website
 
@@ -52,7 +52,7 @@ This site is static. It sets no cookies of its own, runs no analytics or trackin
 
 ## Email you send us
 
-If you email us, we receive your email address and your message. We use them only to reply and to fix what you reported — no lists, no marketing, no sharing. Support correspondence is kept only as long as needed to help you and for our legal obligations, and you can ask us to delete it at any time at [`legal@khassinx.com`](mailto:legal@khassinx.com).
+If you email us, we receive your email address and your message. We use them only to reply and to fix what you reported: no lists, no marketing, no sharing. Support correspondence is kept only as long as needed to help you and for our legal obligations, and you can ask us to delete it at any time at [`legal@khassinx.com`](mailto:legal@khassinx.com).
 
 ## Contact
 

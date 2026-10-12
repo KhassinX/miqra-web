@@ -1,86 +1,117 @@
 title: Miqra
+# Nombre bajo el ícono al agregar a la pantalla de inicio (apple-mobile-web-app-title).
 short_name: Miqra
-app_category: Reference
-description: "A reverent Tanakh reader with an on-device, non-generative concordance: it surfaces connections, never interprets. Public-domain Hebrew text beside an authorized Spanish translation. Privacy-first, for iPhone and iPad."
-description_es: "Un lector reverente del Tanaj con una concordancia en el dispositivo y no generativa: muestra conexiones, nunca interpreta. Texto hebreo de dominio público junto a una traducción autorizada al español. Privado por diseño, para iPhone y iPad."
+description: "A faithful, private reader for the Tanakh: the Hebrew Masoretic text beside a translation, verse by verse in its published wording, and a concordance that never interprets. Free, for iPhone, iPad and Mac."
 url: https://miqra.khassinx.com
 lang: en
 
-# Layer 2 brand tokens (Miqra specific) extending Layer 3 primitives
-app_tokens_css: /assets/css/miqra-tokens.css
+org_legal_name: "KHASSINX LLC"
+org_founding_date: "2026-06-01"
 
-# Favicons (derived from Icon Composer .icon bundle — the Sefer Torah / Torah scroll)
-# SVG primary for modern browsers, PNG fallbacks for legacy + iOS home screen
+# Sin app_store_url: la app está en TestFlight. La portada muestra `availability` en lugar del badge.
+
+# Íconos del brand pack de Miqra (el rollo de la Torá: dos rodillos dorados y el pergamino).
 favicon_svg: /assets/favicons/favicon.svg
 favicon_32: /assets/favicons/favicon-32.png
 favicon_16: /assets/favicons/favicon-16.png
 apple_touch_icon: /assets/favicons/apple-touch-icon.png
 
-# Social / Open Graph + Twitter
-og_site_name: Miqra
-og_image: /assets/og/og-image.png
-og_image_es: /assets/og/og-image-es.png
-og_image_alt: "Miqra: the Tanakh, as it is read."
-og_image_alt_es: "Miqra: el Tanaj, como se lee."
-og_image_width: 1200
-og_image_height: 630
-twitter_card: summary_large_image
+og_image_default:
+  en: /assets/social/EN/og-image.png
+  es: /assets/social/ES/og-image.png
+og_image_alt:
+  en: "Miqra app icon beside the name and the line “The Tanakh, as it is read.” (miqra.khassinx.com)"
+  es: "Icono de Miqra junto al nombre y la frase «El Tanaj, como se lee.» (miqra.khassinx.com)"
 
-# JSON-LD (SoftwareApplication, publisher KHASSINX). `name` is the brand wordmark;
-# `legal_name` is the registered legal entity (used in footer/JSON-LD/legal pages).
-org:
-  name: KHASSINX
-  legal_name: KHASSINX LLC
+# JSON-LD MobileApplication de la portada. Datos de la app (ScriptureSuite: Miqra.xcodeproj, ficha de tienda).
+app_schema:
+  name: "Miqra"
+  operating_system: "iOS 27, iPadOS 27, macOS 27"
+  category: ReferenceApplication
+  price: "0"
+  price_currency: USD
+  offer_category: Free
+  languages: ["en", "es"]
+  free: true
 
-# Navigation — keyed per locale. Sin nav: el encabezado es sólo el wordmark: cada destino ya está en el pie.
+# Nombre de cada sección para la miga de pan (BreadcrumbList); una sección que no esté acá no publica miga.
+breadcrumbs:
+  en:
+    legal: Legal
+  es:
+    legal: Legal
+
 footer_nav:
   en:
+    - title: Support
+      url: /support/
     - title: Privacy
       url: /legal/privacy/
     - title: Terms
       url: /legal/terms/
+    - title: Rights Center
+      url: https://khassinx.com/legal/your-rights/
     - title: Legal
       url: /legal/
     - title: Security
       url: /security/
     - title: Press
       url: /press/
-    - title: Support
-      url: /support/
     - title: Contact
       url: /contact/
   es:
+    - title: Soporte
+      url: /es/support/
     - title: Privacidad
       url: /es/legal/privacy/
     - title: Términos
       url: /es/legal/terms/
+    - title: Centro de derechos
+      url: https://khassinx.com/es/legal/your-rights/
     - title: Legal
       url: /es/legal/
     - title: Seguridad
       url: /es/security/
     - title: Prensa
       url: /es/press/
-    - title: Soporte
-      url: /es/support/
     - title: Contacto
       url: /es/contact/
 
-# UI strings (skip-link y nota de ecosistema del footer) consumed by base.html
 ui_strings:
   en:
     skip_to_main: "Skip to main content"
-    ecosystem_label: "A KHASSINX app"
-    ecosystem_url: "https://khassinx.com"
+    nav_footer: "Footer"
+    umbrella_url: "https://khassinx.com/"
+    last_updated: "Last updated"
+    effective: "Effective"
+    version: "Version"
+    in_short: "In short"
+    on_this_page: "On this page"
+    related: "Related"
+    language: "Language"
+    theme: "Theme"
+    theme_system: "System"
+    theme_light: "Light"
+    theme_dark: "Dark"
   es:
     skip_to_main: "Saltar al contenido principal"
-    ecosystem_label: "Una app de KHASSINX"
-    ecosystem_url: "https://khassinx.com/es/"
+    nav_footer: "Pie de página"
+    umbrella_url: "https://khassinx.com/es/"
+    last_updated: "Última actualización"
+    effective: "Vigente desde el"
+    version: "Versión"
+    in_short: "En resumen"
+    on_this_page: "En esta página"
+    related: "Relacionado"
+    language: "Idioma"
+    theme: "Tema"
+    theme_system: "Sistema"
+    theme_light: "Claro"
+    theme_dark: "Oscuro"
 
-# Jekyll config
 markdown: kramdown
 plugins:
   - jekyll-redirect-from
-  - jekyll-sitemap
 
 exclude:
   - README.md
@@ -88,34 +119,6 @@ exclude:
   - .gitignore
   - LICENSE
 
-# Jekyll por default ignora dotfiles/dotdirs. .well-known DEBE servirse
-# (RFC 9116 security.txt requiere path exacto /.well-known/security.txt).
+# RFC 9116: /.well-known/security.txt se sirve en esa ruta exacta.
 include:
   - .well-known
-
-# Portfolio design system (2026-10): header icon and chrome strings, read by _layouts/base.html and prose.html.
-header_icon: /assets/favicons/icon-192.png
-header_tm: true
-ui_theme:
-  en:
-    skip_to_main: "Skip to main content"
-    nav_primary: "Main"
-    nav_footer: "Footer"
-    lang_selector: "Language selector"
-    umbrella_url: "https://khassinx.com/"
-    last_updated: "Last updated"
-    theme: "Theme"
-    theme_system: "System"
-    theme_light: "Light"
-    theme_dark: "Dark"
-  es:
-    skip_to_main: "Saltar al contenido principal"
-    nav_primary: "Principal"
-    nav_footer: "Pie de página"
-    lang_selector: "Selector de idioma"
-    umbrella_url: "https://khassinx.com/es/"
-    last_updated: "Última actualización"
-    theme: "Tema"
-    theme_system: "Sistema"
-    theme_light: "Claro"
-    theme_dark: "Oscuro"

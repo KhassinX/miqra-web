@@ -1,14 +1,14 @@
 ---
 layout: prose
-title: Miqra — Política de Privacidad
+title: Política de privacidad
+description: "Miqra no recolecta nada: sin cuenta, sin analítica, sin rastreo. Qué guarda la app, dónde vive y cómo borrarlo."
+h1: "Política de privacidad: Miqra"
 permalink: /es/legal/privacy/
 lang: es
 canonical_en: /legal/privacy/
 canonical_es: /es/legal/privacy/
 updated: 2026-10-11
 ---
-
-# Política de Privacidad de Miqra
 
 **Responsable:** KHASSINX LLC
 
@@ -20,13 +20,13 @@ Miqra es una app para leer escritura sagrada. Está hecha privacy-first: **no re
 
 ## Cómo funciona la app en tu dispositivo
 
-- **La lectura y la búsqueda ocurren por completo en tu dispositivo.** El texto sagrado y el índice de búsqueda vienen incluidos en la app (ediciones de dominio público o usadas con autorización de su autor). Tus preguntas, búsquedas, posición de lectura, marcadores y notas nunca salen de tu dispositivo hacia nosotros ni hacia un tercero.
+- **La lectura y la búsqueda ocurren por completo en tu dispositivo.** El texto sagrado viene incluido en la app (ediciones de dominio público o usadas con autorización de su autor). Los índices de búsqueda se construyen en tu dispositivo la primera vez que buscas; lo que se guarda contiene referencias de versículos y vectores de relevancia, nunca texto sagrado. Tus preguntas, búsquedas, posición de lectura, marcadores y notas nunca salen de tu dispositivo hacia nosotros ni hacia un tercero.
 - **La búsqueda semántica en el dispositivo** usa `NLContextualEmbedding` de Apple, un modelo que corre localmente en tu dispositivo. La primera vez que se usa, el sistema operativo puede descargar el modelo desde los servidores de Apple (Apple → tu dispositivo). Esa transferencia no contiene datos personales ni información sobre lo que lees o buscas.
 - **Sin IA de terceros.** La app nunca envía tus consultas, tu lectura ni el texto sagrado a ningún proveedor de IA externo ni a ningún servicio de terceros.
 
 ## Tus datos e iCloud
 
-Tus propios datos — posición de lectura, marcadores, resaltados y notas — se guardan en tu dispositivo y se sincronizan entre tus dispositivos a través de **tu propia cuenta de iCloud** (iCloud Key-Value Store y una base de datos privada de CloudKit), bajo los términos de privacidad de Apple. Nunca tenemos acceso: viven en tu iCloud personal, no en un servidor nuestro. El texto sagrado nunca se sincroniza — cada dispositivo ya trae el texto completo. Si no has iniciado sesión en iCloud, todo sigue funcionando localmente en tu dispositivo. Para eliminar datos sincronizados, borra marcadores, resaltados o notas en la app (los borrados se propagan a tus otros dispositivos), o gestiona el almacenamiento de iCloud en Ajustes.
+Tus propios datos (posición de lectura, marcadores, resaltados y notas) se guardan en tu dispositivo y se sincronizan entre tus dispositivos a través de **tu propia cuenta de iCloud** (iCloud Key-Value Store y una base de datos privada de CloudKit), bajo los términos de privacidad de Apple. Nunca tenemos acceso: viven en tu iCloud personal, no en un servidor nuestro. El texto sagrado nunca se sincroniza: cada dispositivo ya trae el texto completo. Si no has iniciado sesión en iCloud, todo sigue funcionando localmente en tu dispositivo. Para eliminar datos sincronizados, borra marcadores, resaltados o notas en la app (los borrados se propagan a tus otros dispositivos), o gestiona el almacenamiento de iCloud en Ajustes.
 
 ### Diagnósticos
 
@@ -42,7 +42,7 @@ Si esta política cambia, actualizaremos esta página y la fecha de "Última act
 
 ## Tus derechos
 
-Según dónde vivas, puedes tener derechos sobre tus datos personales — acceder a ellos, corregirlos, eliminarlos o llevártelos a otro lugar. Como Miqra no recolecta ningún dato personal, no hay nada que podamos consultar, corregir ni eliminar. Tus derechos y cómo ejercerlos se explican en el **[Centro de Derechos](https://khassinx.com/legal/your-rights/)** de KHASSINX, que cubre la UE/EEE, el Reino Unido, España, California, otros estados de EE. UU. y el resto del mundo.
+Según dónde vivas, puedes tener derechos sobre tus datos personales: acceder a ellos, corregirlos, eliminarlos o llevártelos a otro lugar. Como Miqra no recolecta ningún dato personal, no hay nada que podamos consultar, corregir ni eliminar. Tus derechos y cómo ejercerlos se explican en el **[Centro de derechos](https://khassinx.com/es/legal/your-rights/)** de KHASSINX, que cubre la UE/EEE, el Reino Unido, España, California, otros estados de EE. UU. y el resto del mundo.
 
 ## Este sitio web
 
@@ -50,7 +50,7 @@ Este sitio es estático. No usa cookies propias, no corre ningún tipo de analyt
 
 ## Los emails que nos envías
 
-Si nos escribes, recibimos tu dirección de email y tu mensaje. Los usamos solo para responderte y arreglar lo que reportaste — sin listas, sin marketing, sin compartirlos. La correspondencia de soporte se conserva solo el tiempo necesario para ayudarte y para nuestras obligaciones legales, y puedes pedirnos borrarla en cualquier momento en [`legal@khassinx.com`](mailto:legal@khassinx.com).
+Si nos escribes, recibimos tu dirección de email y tu mensaje. Los usamos solo para responderte y arreglar lo que reportaste: sin listas, sin marketing, sin compartirlos. La correspondencia de soporte se conserva solo el tiempo necesario para ayudarte y para nuestras obligaciones legales, y puedes pedirnos borrarla en cualquier momento en [`legal@khassinx.com`](mailto:legal@khassinx.com).
 
 ## Contacto
 

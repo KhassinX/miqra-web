@@ -1,14 +1,13 @@
 ---
 layout: prose
 title: Legal
+description: "Documentos legales y atribuciones de las ediciones de Miqra, de KHASSINX LLC."
 permalink: /es/legal/
 lang: es
 canonical_en: /legal/
 canonical_es: /es/legal/
 updated: 2026-10-11
 ---
-
-# Legal
 
 Documentos legales públicos de **Miqra**.
 
@@ -39,4 +38,4 @@ Abajo va el crédito de cada edición, el mismo que muestra la app. La app Miqra
 
 ## Marcas comerciales
 
-Apple, iPhone, iPad, App Store, iCloud, CloudKit y iPadOS son marcas comerciales de Apple Inc., registradas en EE. UU. y otros países. IOS es una marca comercial o marca registrada de Cisco en EE. UU. y otros países y se utiliza bajo licencia. KHASSINX y Miqra son marcas comerciales de KHASSINX LLC. Las demás marcas comerciales pertenecen a sus respectivos propietarios.
+Apple, iPhone, iPad, Mac, App Store, iCloud, CloudKit, iPadOS y macOS son marcas comerciales de Apple Inc., registradas en EE. UU. y otros países. IOS es una marca comercial o marca registrada de Cisco en EE. UU. y otros países y se utiliza bajo licencia. KHASSINX y Miqra son marcas comerciales de KHASSINX LLC. Las demás marcas comerciales pertenecen a sus respectivos propietarios.
