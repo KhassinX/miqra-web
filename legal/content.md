@@ -5,12 +5,12 @@ permalink: /legal/content/
 lang: en
 canonical_en: /legal/content/
 canonical_es: /es/legal/content/
-updated: 2026-07-18
+updated: 2026-10-11
 ---
 
 # Content & Rights
 
-Miqra presents the Tanakh in Hebrew alongside a translation, drawn from editions in the public domain or used with their author's permission, and shown verbatim, with each edition attributed in the app and on our [Legal](/legal/) page. We take the rights of authors, translators, and publishers seriously — and we are always glad to welcome new, freely-licensed editions.
+Miqra presents the Tanakh in Hebrew alongside a translation, drawn from editions in the public domain or used with their author's permission, and shown verbatim, with each edition attributed in the app and on our [Legal](/legal/) page. We take the rights of authors, translators, and publishers seriously, and we are always glad to welcome new, freely-licensed editions.
 
 ## Requesting removal or review of content {#removal}
 
