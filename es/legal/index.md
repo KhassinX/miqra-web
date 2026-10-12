@@ -1,6 +1,6 @@
 ---
 layout: prose
-title: Miqra — Legal
+title: Legal
 permalink: /es/legal/
 lang: es
 canonical_en: /legal/
@@ -12,10 +12,10 @@ updated: 2026-10-11
 
 Documentos legales públicos de **Miqra**.
 
-- **[Política de Privacidad](/es/legal/privacy/)** — qué datos maneja Miqra y cómo (spoiler: ninguno nuestro)
-- **[Términos de uso](/es/legal/terms/)** — términos para usar la app, ofrecida pro bono
-- **[Seguridad y reportes responsables](/es/security/)** — cómo reportar vulnerabilidades
-- **[Contenido y derechos](/es/legal/content/)** — solicitar el retiro o la revisión de contenido, o aportar una traducción
+- **[Política de Privacidad](/es/legal/privacy/)**: qué datos maneja Miqra y cómo (spoiler: ninguno nuestro)
+- **[Términos de uso](/es/legal/terms/)**: términos para usar la app, ofrecida pro bono
+- **[Seguridad y reportes responsables](/es/security/)**: cómo reportar vulnerabilidades
+- **[Contenido y derechos](/es/legal/content/)**: solicitar el retiro o la revisión de contenido, o aportar una traducción
 
 ---
 
